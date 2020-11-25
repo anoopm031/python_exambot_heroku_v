@@ -3,7 +3,9 @@ This is the publicised repository of @exam_edu_bot in telegram hosted in Heroku 
 During COVID and lockdown any teacher who wants to engage thier students through assignments and tests can do it easily through this bot. 
 - `test_gen.py` is the main file. I didn't split `test_gen` into smaller components to avoid passing bot object each time a function is called, which is very frequent.
 
-- store.py contains pycopg2-postgres databse codes. `classes.py` contains test class and `user_class.py` contains other used classes.
+- store.py contains pycopg2-postgres databse codes. This file contains basic DDL and DML codes and nothing complex. But I use datasets to practice on more SQL queries. \
+
+- `classes.py` contains test class and `user_class.py` contains other used classes.
 
 - https://t.me/Exam_edu_bot?start   - to checkout the bot
 
